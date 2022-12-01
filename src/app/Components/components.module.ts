@@ -3,13 +3,15 @@ import { MaterialButtonsComponent } from './material-buttons/material-buttons.co
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ComponentsComponent } from './components.component';
+import { MaterialCardsComponent } from './material-cards/material-cards.component';
 
 
 
 @NgModule({
   declarations: [
     MaterialButtonsComponent,
-    ComponentsComponent
+    ComponentsComponent,
+    MaterialCardsComponent
   ],
   imports: [
     CommonModule,

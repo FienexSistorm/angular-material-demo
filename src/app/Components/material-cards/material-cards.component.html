@@ -1,0 +1,118 @@
+<h3>
+  Material Cards
+</h3>
+
+<div>
+  <mat-card>
+    <h3>A Simple card</h3>
+  </mat-card>
+</div>
+<div>
+  <mat-card style="border: 1px solid grey;">
+    <mat-card-title-group>
+      <mat-card-title>Title</mat-card-title>
+      <mat-card-subtitle>Subtitle</mat-card-subtitle>
+    </mat-card-title-group>
+    <img matCardImage alt="" src="../../../assets/images/ui_idea.png">
+    <mat-card-content>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iusto consequuntur maxime.
+      </p>
+    </mat-card-content>
+    <mat-card-actions style="display: flex; justify-content: space-between;">
+      <span align="start">
+        <button mat-button>Read more</button>
+      </span>
+      <span align="end">
+        <button mat-icon-button color="primary">
+          <mat-icon class="mat-18">edit</mat-icon>
+        </button>
+        <button mat-icon-button color="warn">
+          <mat-icon class="mat-18">favorite</mat-icon>
+        </button>
+      </span>
+    </mat-card-actions>
+    <mat-card-footer>
+      Posted on March 7, 2022
+    </mat-card-footer>
+  </mat-card>
+</div>
+
+<div>
+  <mat-card style="border: 1px solid grey;">
+    <mat-card-title-group>
+      <mat-card-title>Title</mat-card-title>
+      <mat-card-subtitle>Subtitle</mat-card-subtitle>
+    </mat-card-title-group>
+    <img matCardImage alt="" src="../../../assets/images/ui_idea.png">
+    <mat-card-content>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iusto consequuntur maxime.
+      </p>
+    </mat-card-content>
+    <mat-card-actions style="display: flex; justify-content: space-between;">
+      <span align="start">
+        <button mat-button>Read more</button>
+      </span>
+      <span align="end">
+        <button mat-icon-button color="primary">
+          <mat-icon class="mat-18">edit</mat-icon>
+        </button>
+        <button mat-icon-button color="warn">
+          <mat-icon class="mat-18">favorite</mat-icon>
+        </button>
+      </span>
+    </mat-card-actions>
+    <mat-card-footer>
+      Posted on March 7, 2022
+    </mat-card-footer>
+  </mat-card>
+</div>
+
+<!-- ------------------------ ** Card With Avatar ** ------------------------ -->
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>Kokushibo</mat-card-title>
+    <mat-card-subtitle>Demon Slayer</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="../../../assets/images/anime_two.jpg" alt="Photo of a Shiba Inu">
+  <mat-card-content>
+    <p>
+      Kokushibo (黒こく死し牟ぼう Kokushibō?) is a major supporting antagonist of Demon Slayer: Kimetsu no Yaiba. He is a demon
+      affiliated with the Twelve Kizuki, holding the highest position, Upper Rank One (上じょう弦げんの壱いち Jōgen no Ichi?).[2]
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>
+
+
+
+<!-- -------------------- ** Card With footer Loader ** -------------------- -->
+<mat-card>
+  <mat-card-header>
+    <mat-card-subtitle>Angular Material</mat-card-subtitle>
+    <mat-card-title>Angular</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <p>This card has divider and indeterminate progress as footer</p>
+    <p>Angular is a framework to better create web applications as a single-page application</p>
+    <mat-divider></mat-divider>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button color="warn">
+      <mat-icon class="mat-18">thumb_up</mat-icon>
+      LIKE
+    </button>
+    <button mat-button color="warn">
+      <mat-icon class="mat-18">share</mat-icon>
+      SHARE
+    </button>
+  </mat-card-actions>
+  <mat-card-footer>
+    <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+  </mat-card-footer>
+</mat-card>

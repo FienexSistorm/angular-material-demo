@@ -41,6 +41,8 @@ export class MaterialSnackbarComponent implements OnInit {
       "Close",
       {
         politeness: "polite",
+        panelClass: ['snack-bar-sucess']
+
       }
     )
   }

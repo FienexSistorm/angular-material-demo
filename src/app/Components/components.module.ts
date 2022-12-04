@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ComponentsComponent } from './components.component';
 import { MaterialCardsComponent } from './material-cards/material-cards.component';
+import { MaterialProgressBarComponent } from './material-progress-bar/material-progress-bar.component';
 
 
 
@@ -11,7 +12,8 @@ import { MaterialCardsComponent } from './material-cards/material-cards.componen
   declarations: [
     MaterialButtonsComponent,
     ComponentsComponent,
-    MaterialCardsComponent
+    MaterialCardsComponent,
+    MaterialProgressBarComponent
   ],
   imports: [
     CommonModule,

@@ -7,3 +7,15 @@ div{
   background-image: url('../../../assets/images/anime_avatar.png');
   background-size: cover;
 }
+
+mat-card{
+  width: 450px;
+  margin: 4px 10px;
+}
+
+.container{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

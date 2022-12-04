@@ -1,0 +1,28 @@
+<h3>Material Progress Bar</h3>
+
+
+<!-- Simple Example -->
+<mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+
+<h4>Colors</h4>
+<mat-progress-bar mode="determinate" value="20" color="primary"></mat-progress-bar>
+<mat-progress-bar mode="determinate" value="40" color="accent"></mat-progress-bar>
+<mat-progress-bar mode="determinate" value="60" color="warn"></mat-progress-bar>
+
+
+<!-- Modes -->
+<h4>Progress Modes</h4>
+<span>Determinate</span>
+<mat-progress-bar mode="determinate"></mat-progress-bar>
+<span>Buffer</span>
+<mat-progress-bar mode="indeterminate"></mat-progress-bar>
+<span>Query</span>
+<mat-progress-bar mode="query"></mat-progress-bar>
+<span>Buffer</span>
+<mat-progress-bar mode="buffer"></mat-progress-bar>
+<!-- ------------------------------ ** NOTE : ------------------------------- -->
+<!--
+  In "query" mode, the progress-bar renders as an inverted "indeterminate" bar.
+  Once the response progress is available, the mode should be changed to determinate to convey the progress.
+  In this mode the value property is ignored.
+-->

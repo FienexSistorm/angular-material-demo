@@ -26,3 +26,29 @@
   Once the response progress is available, the mode should be changed to determinate to convey the progress.
   In this mode the value property is ignored.
 -->
+
+<!-- ------------------ ** SECTION :: Progress Spinner ** ------------------ -->
+<h3>Progresss Spinner</h3>
+
+<!-- Colors -->
+<h3>Colors</h3>
+<div class="spinners">
+  <mat-progress-spinner  value="20" color="primary"></mat-progress-spinner>
+  <mat-progress-spinner  value="40" color="accent"></mat-progress-spinner>
+  <mat-progress-spinner  value="60" color="warn"></mat-progress-spinner>
+</div>
+
+<!-- Modes -->
+<h3>Modes</h3>
+<div class="spinners">
+  <mat-progress-spinner  mode="indeterminate"  value="20" color="danger"></mat-progress-spinner>
+  <mat-progress-spinner  mode="determinate" value="20" color="primary"></mat-progress-spinner>
+</div>
+
+<!-- Styling -->
+<div class="">
+  <span>Stroke Width</span>
+  <mat-progress-spinner  [strokeWidth]="5" mode="indeterminate" value="20" color="primary"></mat-progress-spinner>
+  <span>Diameter</span>
+  <mat-progress-spinner  [diameter]="23" mode="indeterminate" value="20" color="primary"></mat-progress-spinner>
+</div>

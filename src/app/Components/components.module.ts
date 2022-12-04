@@ -7,13 +7,12 @@ import { MaterialCardsComponent } from './material-cards/material-cards.componen
 import { MaterialProgressBarComponent } from './material-progress-bar/material-progress-bar.component';
 
 
-
 @NgModule({
   declarations: [
     MaterialButtonsComponent,
     ComponentsComponent,
     MaterialCardsComponent,
-    MaterialProgressBarComponent
+    MaterialProgressBarComponent,
   ],
   imports: [
     CommonModule,

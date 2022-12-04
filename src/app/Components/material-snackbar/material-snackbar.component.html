@@ -1,0 +1,19 @@
+<h3>
+  SnackBar (Toasts)
+</h3>
+
+<!-- --------------------------- Simple Snackbar --------------------------- -->
+<button mat-stroked-button (click)="simpleToastTrigger()"> Simple Toast</button>
+
+<div>
+  <button mat-stroked-button (click)="positionedToast('top','left')">Top - Left</button>
+  <button mat-stroked-button (click)="positionedToast('top','right')">Top - Right</button>
+  <button mat-stroked-button (click)="positionedToast('bottom','left')">Bottom - Left</button>
+  <button mat-stroked-button (click)="positionedToast('bottom','right')">Bottom - Right</button>
+  <button mat-stroked-button (click)="positionedToast('top','center')">Top - Center</button>
+  <button mat-stroked-button (click)="positionedToast('bottom','center')">Bottom - Center</button>
+</div>
+
+<div>
+  <button mat-button (click)="openCustomizedToast()">Custom Toast</button>
+</div>

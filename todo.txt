@@ -1,0 +1,3 @@
+# ------------------------------ ** Snackbar ** ------------------------------ #
+A service that will show the toasts deom templates/components offering
+full customization

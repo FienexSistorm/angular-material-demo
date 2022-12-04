@@ -6,6 +6,7 @@ import { ComponentsComponent } from './components.component';
 import { MaterialCardsComponent } from './material-cards/material-cards.component';
 import { MaterialProgressBarComponent } from './material-progress-bar/material-progress-bar.component';
 import { MaterialSnackbarComponent } from './material-snackbar/material-snackbar.component';
+import { MaterialTooltipComponent } from './material-tooltip/material-tooltip.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { MaterialSnackbarComponent } from './material-snackbar/material-snackbar
     MaterialCardsComponent,
     MaterialProgressBarComponent,
     MaterialSnackbarComponent,
+    MaterialTooltipComponent,
   ],
   imports: [
     CommonModule,

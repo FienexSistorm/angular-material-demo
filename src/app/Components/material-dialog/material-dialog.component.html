@@ -1,0 +1,39 @@
+<h2>
+  Material Dialogs
+</h2>
+
+<div>
+  <h4>Simple Modal</h4>
+  <button mat-button (click)="openSimpleModal()" color="primary">Simple Modal</button>
+</div>
+
+<div>
+  <h4>Injecting Data to Modal</h4>
+  <button mat-button (click)="openDataModal()">Injectinyg Data</button>
+</div>
+
+<div>
+  <h4>Template Modal</h4>
+  <button mat-button (click)="openTemplateDialog()">Open Template Modal</button>
+</div>
+
+<div>
+  <h4>Styled Modal</h4>
+  <button mat-button (click)="openStyledDialog()">Open Styled Modal</button>
+</div>
+
+
+
+
+ <!-- ------------------ ** SECTION :: Template Dialog ** ------------------- -->
+<ng-template #templateDialog>
+  <h1 matDialogTitle>Template Dialog</h1>
+
+  <mat-dialog-content>
+    This is a template dialog.
+  </mat-dialog-content>
+
+  <mat-dialog-actions align="end">
+      <button mat-button color="danger" matDialogClose>Close dialog</button>
+  </mat-dialog-actions>
+</ng-template>

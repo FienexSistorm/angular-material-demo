@@ -8,6 +8,7 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatDialogModule } from '@angular/material/dialog';
 
 
 // An array of all the material module that we will use
@@ -20,6 +21,7 @@ const materialModules = [
   MatProgressSpinnerModule,
   MatSnackBarModule,
   MatTooltipModule,
+  MatDialogModule,
 ]
 
 

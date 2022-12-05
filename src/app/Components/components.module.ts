@@ -7,6 +7,10 @@ import { MaterialCardsComponent } from './material-cards/material-cards.componen
 import { MaterialProgressBarComponent } from './material-progress-bar/material-progress-bar.component';
 import { MaterialSnackbarComponent } from './material-snackbar/material-snackbar.component';
 import { MaterialTooltipComponent } from './material-tooltip/material-tooltip.component';
+import { MaterialDialogComponent } from './material-dialog/material-dialog.component';
+import { SimpleDialogComponent } from './material-dialog/dialogs/simple-dialog/simple-dialog.component';
+import { DataInjectionDialogComponent } from './material-dialog/dialogs/data-injection-dialog/data-injection-dialog.component';
+import { StyledDialogComponent } from './material-dialog/dialogs/styled-dialog/styled-dialog.component';
 
 
 @NgModule({
@@ -17,6 +21,10 @@ import { MaterialTooltipComponent } from './material-tooltip/material-tooltip.co
     MaterialProgressBarComponent,
     MaterialSnackbarComponent,
     MaterialTooltipComponent,
+    MaterialDialogComponent,
+    SimpleDialogComponent,
+    DataInjectionDialogComponent,
+    StyledDialogComponent,
   ],
   imports: [
     CommonModule,
